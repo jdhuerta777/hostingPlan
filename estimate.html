@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estimate Calculator </title>
+
+    <link rel =  "stylesheet" href = "estimate.css" >
+</head>
+
+<body>
+    <div class = "container">
+        <form class = "myForm">
+            <h1> Estimate Calculator </h1>
+            
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Doe"><br>
+
+            <label for="mail"> Email </label><br>
+            <input type="email" id="mail" name="mail" placeholder="example@mail.com"> <br>
+
+
+            <label> Plan Type </label><br>
+            <!-- <input type="radio" id="plan" name="plan" value="Basic">
+            <label for="plan"> Basic </label> <br>
+
+            <input type="radio" id="plan" name="plan" value="Professional">
+            <label for="plan"> Professional </label> <br>
+
+            <input type="radio" id="plan" name="plan" value="Ultimate">
+            <label for="plan"> Ultimate </label> <br>-->
+            <h2>Basic Plan</h2> 
+            <p id = "p1price"></p>
+            <button id = "buttonform" onclick = "p1.calcAnnual(0.80)">Add To Cart</button>
+
+            <h2>Professional Plan</h2> 
+            <p id = "p2price"></p>
+            <button id = "buttonform" onclick = "p2.calcAnnual(0.80)">Add To Cart</button>
+
+            <h2>Ultimate Plan</h2> 
+            <p id = "p3price"></p>
+            <button id = "buttonform" onclick = "p3.calcAnnual(0.80)">Add To Cart</button>          
+
+
+           
+        </form>
+    </div>
+    <script src = "prototype.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Staatliches&display=swap');
+
+body {
+    background-color: #FF8C42;
+    color: #2D3142;
+    font-family: 'Passion One', cursive;
+}
+
+h1 {
+    color: #2D3142;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #FABD98 ;
+    border-radius: 5px;
+    padding: 15px;
+    width: 85%;
+    margin: auto;
+}
+
+form {
+    background-color: floralwhite;
+    padding: 25px;
+    border-radius: 5px;
+}

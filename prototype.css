@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Staatliches&display=swap');
+
+body {
+    background-color: #FF8C42;
+}
+
+hr {
+    border-width: 100%;
+}
+
+b {
+    font-family: 'Passion One', cursive;
+    font-size:25px;
+}
+
+.mega-container {
+    background-color: #FABD98;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 15px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    font-family: 'Passion One', cursive;
+    color: black;
+}
+.column {
+    background-color: floralwhite;
+    margin: 0;
+    padding: 35px;
+    width: 300px;
+    height: auto;
+    font-family: 'Passion One', cursive;
+    font-size: 18px;
+}
+
+.column b{
+    font-size: 25px;
+}
+#column1 {
+    background-color: floralwhite;
+    border: black solid 2px;
+    width: 150px;
+    margin-right: 0;
+}
+#column2 {
+    background-color: floralwhite;
+    border: black solid 2px;
+    margin-right: 0;
+    margin-left: 0;
+}
+#column3 {
+    background-color: floralwhite;
+    border: black solid 2px;
+    margin-right: 0;
+    margin-left: 0;
+}
+#column4 {
+    background-color: floralwhite;
+    border: black solid 2px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.estimateButton {
+    background-color: floralwhite;
+    top: 50px;
+    font-family: 'Passion One', cursive;
+    font-size: 18px;
+    padding: 5px;
+}
